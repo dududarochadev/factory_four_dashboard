@@ -66,7 +66,7 @@ export const StatusCard: React.FC<IStatusCardProps> = ({ option }) => {
       flexDirection: 'column',
       justifyContent: 'center',
       alignItems: 'center',
-      boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)', // Adição da sombra
+      boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
     }}>
       <h3 style={{ margin: '0px' }}>{option.toUpperCase()}</h3>
 
