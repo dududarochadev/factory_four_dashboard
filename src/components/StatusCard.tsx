@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 import { useCallback, useEffect, useState } from "react";
+import { Environment } from "../Environment";
 
 interface IHealthStatusData {
   title: string;
@@ -43,7 +44,7 @@ export const StatusCard: React.FC<IStatusCardProps> = ({ option }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       get();
-    }, 15000);
+    }, Environment.secondsPerRequisition * 1000);
 
     return () => clearInterval(interval);
   }, [get]);
