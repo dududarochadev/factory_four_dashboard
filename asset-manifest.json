@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/factory_four_dashboard/static/css/main.93a0497a.css",
+    "main.js": "/factory_four_dashboard/static/js/main.2adebb06.js",
+    "index.html": "/factory_four_dashboard/index.html",
+    "main.93a0497a.css.map": "/factory_four_dashboard/static/css/main.93a0497a.css.map",
+    "main.2adebb06.js.map": "/factory_four_dashboard/static/js/main.2adebb06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a0497a.css",
+    "static/js/main.2adebb06.js"
+  ]
+}
